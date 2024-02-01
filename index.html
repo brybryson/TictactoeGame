@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing_2.css" />
+    <link rel="icon" href="logo.png">
+    <title>Tic-Tac-Toe Game</title>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- LOGO -->
+        <div class="logo-container">
+            <img class="logo" src="new-logo.svg">
+
+            <div class="button">
+            <a href="game-option-2.html"><button id="game-option">Game Option</button></a>
+            <button id="play" onclick="showCustomAlert()">PLAY</button>
+             <!-- Names at the bottom -->
+    
+            <div class="footer">
+                <p>Ancot · Fesariton · Melliza · Sosas · Quintos</p>
+                <p>IT 225</p>
+            </div>
+ 
+            </div>
+        </div>
+
+    <!-- ALERT NOTIFICATION IF USER CLICKED 'PLAY' W/O CHOOSING GAME OPTION -->
+    
+    <div class="notif" id="customAlert">
+        <p>Please select a game mode</p>
+        <button onclick="hideCustomAlert()">OK</button>
+    </div>
+
+        <!-- Overlay for darkened background -->
+        <div class="overlay" id="overlay"></div>
+    </div>
+
+    
+
+    <script src="landing-2.js"></script>
+</body>
+
+</html>
